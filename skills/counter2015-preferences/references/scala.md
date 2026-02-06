@@ -1,0 +1,3 @@
+- sbt: Scala 的默认构建工具。
+- tapir: Scala 的 API 框架，适合构建 RESTful API。
+- circe: Scala 的 JSON 处理库，适合 JSON 的解析、校验与序列化。
