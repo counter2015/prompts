@@ -23,3 +23,5 @@ Skills 编写可参考 Claude 官方的 [技能创作最佳实践](https://platf
 | [`pwdebug`](skills/pwdebug/SKILL.md) | 通过命令行复用浏览器会话进行前端调试 |
 | [`tech-doc`](skills/tech-doc/SKILL.md) | 技术协作文档的统一写作指南 |
 | [`fetch-url`](skills/fetch-url/SKILL.md) | 渲染 URL 并输出多格式内容或原始 HTML（Playwright + trafilatura） |
+| [`skill-generator`](skills/skill-generator/SKILL.md) | 生成或更新技能脚手架（目录、SKILL.md 与可选资源目录） |
+| [`web-reverse-analysis`](skills/web-reverse-analysis/SKILL.md) | 从给定网址做技术分析与逆向拆解，并输出可复现的实现方案 |
