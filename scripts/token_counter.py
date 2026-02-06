@@ -59,7 +59,11 @@ def main(
         raise typer.Exit(code=1)
 
     try:
-        text = spec.file_path.read_text(encoding="utf-8") if spec.file_path else sys.stdin.read()
+        text = (
+            spec.file_path.read_text(encoding="utf-8")
+            if spec.file_path
+            else sys.stdin.read()
+        )
     except OSError as exc:  # noqa: PERF203 - keep clarity
         console.print(f"[red]读取输入失败：{exc}[/red]")
         raise typer.Exit(code=1)
